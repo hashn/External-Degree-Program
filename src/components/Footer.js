@@ -5,35 +5,35 @@ import {Link} from 'react-router-dom';
     return (
       <div>
       <footer className="footerbackground">
-      <a name="ContactSection" />
-      <div className="row">
-        <div className="col-4 colmn-3">
-          <p className="p-text">img logo</p>
-        </div>
-        <div className="col-4 colmn-3">
-          <hr className="hr-light" />
-          <h3 className="h3-color">CONTACT US</h3>
-          <hr className="hr-light" />
+        <a name="ContactSection" />
           <div className="row">
-            <div className="col-2"> <p className="p-text">img</p></div>
-            <div className="col colmn-3">
-              <p className="p-text">
+            <div className="col-4 colmn-3">
+              <p className="p-text">img logo</p>
+            </div>
+          <div className="col-5 colmn-3">
+            <hr className="hr-light" />
+            <h3 className="h3-color">CONTACT US</h3>
+            <hr className="hr-light" />
+            <div className="row">
+              <div className="col-2"><p className="p-text"><i class="fas fa-map-marker-alt"></i></p></div>
+              <div className="col colmn-3">
+                <p className="p-text">
                 Center for Open and Distance Learning
-                University of Jaffna
-                Jaffna, Sri Lanka
-              </p>
+                <br/>University of Jaffna
+                Jaffna,<br/>Sri Lanka
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-2"><p className="p-text"><i class="fa fa-phone" aria-hidden="true"></i></p></div>
+              <div className="col-4 colmn-3"><p className="p-text">+94212223612</p> </div>
+            </div> 
+            <div className="row">
+              <div className="col-2"><p className="p-text"><i class="fa fa-envelope" aria-hidden="true"></i></p></div>
+              <div className="col-4 colmn-3"><p className="p-text">codl@univ.jfn.ac.lk</p></div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-2"><p className="p-text">img</p></div>
-            <div className="col-4 colmn-3"><p className="p-text">+94212223612</p> </div>
-          </div> 
-          <div className="row">
-            <div className="col-2"><p className="p-text">img</p></div>
-            <div className="col-4 colmn-3"><p className="p-text"> codl@univ.jfn.ac.lk</p></div>
-          </div>
-        </div>
-        <div className="col-4 colm-3">
+        <div className="col-3 colm-3">
           <hr className="hr-light" />
           <h3 className="h3-color">QUICK LINKS</h3>
           <hr className="hr-light" />

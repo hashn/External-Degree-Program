@@ -22,7 +22,7 @@ class Header extends Component {
                       Degree
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a className="dropdown-item" href="#">Bachelor of Arts (BA)</a>
+                      <a className="dropdown-item" href="/degree">Bachelor of Arts (BA)</a>
                       <div className="dropdown-divider" />
                       <a className="dropdown-item" href="#">Bachelor of Fine Arts (BFA)</a>
                       <div className="dropdown-divider" />

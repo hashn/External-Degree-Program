@@ -1,0 +1,324 @@
+/* navbar css */
+.navbar
+{
+  background-color:#020C31!important;
+  
+} 
+.nav-link
+{
+    color:#FFF!important;
+}
+.navbar ul li:hover
+{
+    background:#343a4e!important ;
+    border-radius: 3px!important;
+    
+}
+.change-font-color
+{
+    text-align: center!important;
+   
+}
+.card
+{
+    background-color: rgba(82, 184, 190, 0.14)!important;
+    height:405px!important; 
+}
+.headCard
+{
+    font-size: large!important;
+}
+
+/* about us */
+.AboutUs
+{
+    background-color: rgba(159, 158, 204, 0.19)!important;
+    height:auto!important;
+}
+
+/* footer */
+.footerbackground
+{
+    background-color:#020C31!important;
+}
+.h3-color
+{
+    color: #FFF!important;
+}
+.hr-light
+{
+    border-color: #FFF;
+}
+.colmn-3
+{
+   text-align: center;
+}
+.p-text
+{
+    color: #FFF;
+    text-align: left;
+}
+.colm-4
+{
+    line-height: 400%;
+}
+
+/* contact us */
+.cantact-card
+{
+    background-color: #FFF!important;
+}
+.map-contact
+{
+    width:850px;
+    height:405px;
+}
+
+/* degree page */
+.degree-sec1{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: fit-content;
+}
+  .degree-sec1-heading{
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    font-family: Rye;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    background: rgba(87, 93, 150, 0.50);
+}
+  .degree-sec1-heading h2{
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: none;
+  }
+  .degree-sec1-heading h4{
+    font-size: 22px;
+    text-align: center;
+    padding: none;
+  }
+  .degree-sec1-heading h3{
+    font-size: 24px;
+    text-align: center;
+    padding: none;
+  }
+
+.degree-sec1 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.45;
+}
+.degree-sec1-intro{
+    margin: 55px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    font-family: Rye;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    background: rgba(167, 94, 100, 0.2);
+}
+.degree-sec1-intro h2{
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: none;
+    font-weight: bold;
+  }
+  .degree-sec1-intro p{
+    font-size: 20px;
+    text-align: left;
+    padding: none;
+    font-weight: bold;
+  }
+
+  .degree-sec2{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: fit-content;
+    font-family: Rye;
+}
+.degree-sec2-text h2{
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  .degree-sec2-text p{
+    font-size: 20px;
+    text-align: left;
+    padding: none;
+    line-height: 20px;
+  }
+
+  .degree-sec3{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: fit-content;
+    font-family: Rye;
+    background: rgba(159, 158, 204, 0.19);
+  }
+  .degree-sec3 h2{
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  .card-heading,
+  .degree-card-text{
+      padding: 15px;
+  }
+  .card-heading h4{
+      text-align: center;
+      font-size: 25px;
+  }
+  .degree-card-text p{
+      font-size: 22px;
+  }
+
+  .subject-box{
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    background: rgba(153, 172, 186, 0.81);
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .subject-box a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.subject-box a:hover{
+    color: rgb(71, 28, 173);
+}
+.course-box{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    background: rgba(30, 63, 87, 0.94);
+    border-radius: 12px;
+    text-align: center;
+    margin: 25px 15px;
+    position: relative;
+    padding-top: 10px;
+}
+.course-box a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.course-box a:hover{
+    color: rgb(255, 255, 255);
+}
+.icon{
+    color: white;
+}
+
+/* courses-css */
+.core-courses-sec1{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 20px;
+    height: fit-content;
+}
+.core-courses-sec1 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.7;
+}
+.sec1-sub-box{
+    font-style: normal;
+    font-weight: bold;
+    background: rgba(30, 108, 119, 0.78);
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px 25px;
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+  }
+  .sec1-sub-box a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+.sec1-sub-box a:hover{
+    color: rgb(5, 54, 44);
+}
+.sec1-sub-box a:active{
+    color: rgb(163, 75, 75);
+}
+.sec1-sub-title{
+    color: black;
+    text-align:center;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+    font-family: serif;   
+}
+.core-courses-sec2{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: fit-content;
+    font-family: Rye;
+}
+.courseunit-box{
+    height: fit-content;
+    padding: 10px;
+    background: rgba(235, 232, 253, 1);
+}
+.courseunit-title{
+    padding: 5px;
+    background: rgba(30, 39, 119, 0.13);
+}
+.courseunit-box h4{
+    margin: 10px;
+}
+.courseunits{
+    margin-top: 20px;
+}
+.courseunits-link{
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    background: rgba(159, 166, 233, 0.83);
+border: 1px solid rgba(146, 151, 193, 0.78);
+box-sizing: border-box;
+}
+.apply-btn{
+    background-color: rgb(167, 103, 103);
+    font-size: 30px;
+}
+.download-btn{
+    background: rgba(32, 89, 79, 0.94);
+    font-size: 14px;
+}
+.apply-btn a, .download-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.apply-btn, .download-btn{
+    text-align: center;
+    padding: 10px;
+    height: fit-content;
+    width: 100%;
+    border-radius: 12px;
+}
