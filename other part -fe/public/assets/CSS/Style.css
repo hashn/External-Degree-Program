@@ -1,0 +1,881 @@
+/* navbar css */
+.navbar
+{
+  background-color:#020C31!important;
+  
+} 
+.nav-link
+{
+    color:#FFF!important;
+}
+.navbar ul li:hover
+{
+    background:#343a4e!important ;
+    border-radius: 3px!important;
+    
+}
+.change-font-color
+{
+    text-align: center!important;
+   
+}
+.card
+{
+    background-color: rgba(82, 184, 190, 0.14)!important;
+    height:405px!important; 
+}
+.headCard
+{
+    font-size: large!important;
+}
+
+/* about us */
+.AboutUs
+{
+    background-color: rgba(159, 158, 204, 0.19)!important;
+    height:auto!important;
+}
+
+/* footer */
+.footerbackground
+{
+    background-color:#020C31!important;
+}
+.h3-color
+{
+    color: #FFF!important;
+}
+.hr-light
+{
+    border-color: #FFF;
+}
+.colmn-3
+{
+   text-align: center;
+}
+.p-text
+{
+    color: #FFF;
+    text-align: left;
+}
+.colm-4
+{
+    line-height: 400%;
+}
+
+/* contact us */
+.cantact-card
+{
+    background-color: #FFF!important;
+}
+.map-contact
+{
+    width:850px;
+    height:405px;
+}
+
+/* degree page */
+.degree-sec1{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: fit-content;
+}
+  .degree-sec1-heading{
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    font-family: Rye;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    background: rgba(87, 93, 150, 0.50);
+}
+  .degree-sec1-heading h2{
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: none;
+  }
+  .degree-sec1-heading h4{
+    font-size: 22px;
+    text-align: center;
+    padding: none;
+  }
+  .degree-sec1-heading h3{
+    font-size: 24px;
+    text-align: center;
+    padding: none;
+  }
+
+.degree-sec1 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.45;
+}
+.degree-sec1-intro{
+    margin: 55px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    font-family: Rye;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    background: rgba(167, 94, 100, 0.2);
+}
+.degree-sec1-intro h2{
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: none;
+    font-weight: bold;
+  }
+  .degree-sec1-intro p{
+    font-size: 20px;
+    text-align: left;
+    padding: none;
+    font-weight: bold;
+  }
+
+  .degree-sec2{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: fit-content;
+    font-family: Rye;
+}
+.degree-sec2-text h2{
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  .degree-sec2-text p{
+    font-size: 20px;
+    text-align: left;
+    padding: none;
+    line-height: 20px;
+  }
+
+  .degree-sec3{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: fit-content;
+    font-family: Rye;
+    background: rgba(159, 158, 204, 0.19);
+  }
+  .degree-sec3 h2{
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  .card-heading,
+  .degree-card-text{
+      padding: 15px;
+  }
+  .card-heading h4{
+      text-align: center;
+      font-size: 25px;
+  }
+  .degree-card-text p{
+      font-size: 22px;
+  }
+
+  .subject-box{
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    background: rgba(153, 172, 186, 0.81);
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .subject-box a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.subject-box a:hover{
+    color: rgb(71, 28, 173);
+}
+.course-box{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    background: rgba(30, 63, 87, 0.94);
+    border-radius: 12px;
+    text-align: center;
+    margin: 25px 15px;
+    position: relative;
+    padding-top: 10px;
+}
+.course-box a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.course-box a:hover{
+    color: rgb(255, 255, 255);
+}
+.icon{
+    color: white;
+}
+
+/* courses-css */
+.core-courses-sec1{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 20px;
+    height: fit-content;
+}
+.core-courses-sec1 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.7;
+}
+.sec1-sub-box{
+    font-style: normal;
+    font-weight: bold;
+    background: rgba(30, 108, 119, 0.78);
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px 25px;
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+  }
+  .sec1-sub-box a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+.sec1-sub-box a:hover{
+    color: rgb(5, 54, 44);
+}
+.sec1-sub-box a:active{
+    color: rgb(163, 75, 75);
+}
+.sec1-sub-title{
+    color: black;
+    text-align:center;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+    font-family: serif;   
+}
+.core-courses-sec2{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    height: fit-content;
+    font-family: Rye;
+}
+.courseunit-box{
+    height: fit-content;
+    padding: 10px;
+    background: rgba(235, 232, 253, 1);
+}
+.courseunit-title{
+    padding: 5px;
+    background: rgba(30, 39, 119, 0.13);
+}
+.courseunit-box h4{
+    margin: 10px;
+}
+.courseunits{
+    margin-top: 20px;
+}
+.courseunits-link{
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    background: rgba(159, 166, 233, 0.83);
+border: 1px solid rgba(146, 151, 193, 0.78);
+box-sizing: border-box;
+}
+.apply-btn{
+    background-color: rgb(167, 103, 103);
+    font-size: 30px;
+}
+.download-btn{
+    background: rgba(32, 89, 79, 0.94);
+    font-size: 14px;
+}
+.apply-btn a, .download-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.apply-btn, .download-btn{
+    text-align: center;
+    padding: 10px;
+    height: fit-content;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.apply-btn:hover, .download-btn a:hover{
+  color: #f5f5f8;
+  text-decoration: none;
+}
+  
+.popupbox{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1000;
+  };
+  
+  .popupbox[hidden]{
+    display: none;
+  }
+  
+  .popupbox-overlay{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index:1002;
+    background: none repeat scroll 0% 0% #000;
+  }
+  
+  .popupbox-content {
+    overflow: hidden;
+  }
+  
+  .popupbox-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    z-index: 1003;
+    position: relative;
+  }
+  
+  .popupbox-titleBar {
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  
+  .popupbox-btn--close {
+    z-index: 1004;
+  }
+  
+  .popupbox[data-title='bottom'] .popupbox-content { order: 1 }
+  .popupbox[data-title='bottom'] .popupbox-titleBar { order: 2 }
+  
+  /* ----- default theme ----- */
+  
+  .popupbox-wrapper {
+    border-radius: 3px;
+    overflow: hidden;
+    max-width: 80%;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .9);
+    background-color: white;
+  }
+  
+  .popupbox-content {
+    padding: 20px 24px 30px;
+  }
+  
+  .popupbox-titleBar {
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, .2);
+    padding: 11px 37px 11px 24px;
+    border-bottom: 1px #ccc solid;
+  }
+  
+  .popupbox-btn--close {
+    transition: all .5s;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    color: #c1c1c1;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  .popupbox-btn--close:hover {
+    color: rgb(165, 146, 146);
+  }
+  
+  .popupbox.is-active {
+    opacity: 0.5;
+    pointer-events: auto;
+  }
+  
+  .popupbox[data-title='bottom'] .popupbox-content { box-shadow: 0 1px 1px rgba(0, 0, 0, .3) }
+  .popupbox[data-title='bottom'] .popupbox-titleBar { box-shadow: none; border-top: 1px #ccc solid }
+
+.course-btn{
+    color:black;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: rgb(42, 78, 155);  
+}
+.course-btn:hover{
+    color: rgb(95, 25, 160);
+}
+
+
+
+  /* ----- login page css ----- */
+
+.login{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 600px;
+  }
+  .userReg{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 900px;
+  }
+
+  .loginForm,
+  .userRegForm{
+    width:400px;
+    height:fit-content;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    margin-bottom: 5%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;    
+  }
+
+  .reg-bottom-text a, p{
+    font-size: 14px;
+    color: #343a4e;
+    text-decoration: none;
+  }
+
+  .loginForm h1,  
+  .userRegForm h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 33px;
+    color: rgb(44, 44, 46);
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .loginForm input, 
+  .userRegForm input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .loginForm input[type=text], 
+  .userRegForm input[type=text],
+  .loginForm input[type=password], 
+  .userRegForm input[type=password]{
+    border: none;
+    border-bottom: 1px solid rgb(184, 177, 177);
+    background:transparent;
+    outline: none;
+    height: 30px;
+    font-size: 20px;
+    opacity: 1;
+    color: rgb(79, 78, 87);
+  }
+
+  .loginForm input[type=submit], 
+  .userRegForm input[type=submit]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #656575;
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.8;
+    border-radius: 3px;
+  }
+
+  .loginForm input[type=submit]:hover, 
+  .userRegForm input[type=submit]:hover{
+    cursor: pointer;
+    background: #a9a9b6;
+    color: black;
+    font-weight: bold;
+  }
+
+  .loginForm a, .userRegForm a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(164, 145, 192);
+  }
+
+  .loginForm a:hover, .userRegForm a:hover{
+    color: rgb(53, 53, 54);
+    font-weight: bold;
+  }
+
+  .userRegForm a{
+    padding-left: 12px;
+    color: #1e1e30;
+  }
+
+  .userRegForm p{
+    color: #656575;
+  }
+
+  .bottom-text{
+    color: rgb(118, 114, 129);
+  }
+
+  .bottom-text input{
+    width: 10%;
+    float: left;
+  }
+
+  .bottom-text a{
+    float: right;
+  }
+
+  .loginForm .regBtn{
+    width: fit-content;
+    padding: 3%;
+    height: fit-content;
+    background-color: rgb(153, 153, 161);
+    margin-top: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+
+  .loginForm .regBtn a{
+    color: rgb(240, 239, 245);
+  }
+
+  .loginForm .regBtn:hover{
+    background-color: rgb(184, 184, 189);
+  }
+
+  .loginForm .regBtn a:hover{
+    color: rgb(0, 0, 0);
+  }
+
+  .login img,
+  .userReg img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    opacity: 0.2;
+  }
+
+  .close{
+    margin: 20px;
+  }
+  .close a{
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+  }
+
+  .sidebar-container{
+    height: fit-content;
+    
+    padding: 5px 5px;
+    
+  }
+
+
+  /* sidebar css */
+
+
+  .nav-side-menu {
+    overflow: auto;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 200;
+    background-color: #2e353d;
+    padding: 5px;
+    top: 0px;
+    width: 350px;
+    height: fit-content;
+    color: #e1ffff;
+  }
+  .nav-side-menu .brand {
+    background-color: #23282e;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+  }
+  .nav-side-menu .toggle-btn {
+    display: none;
+  }
+  .nav-side-menu ul,
+  .nav-side-menu li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+    cursor: pointer;
+    /*    
+      .collapsed{
+         .arrow:before{
+                   font-family: FontAwesome;
+                   content: "\f053";
+                   display: inline-block;
+                   padding-left:10px;
+                   padding-right: 10px;
+                   vertical-align: middle;
+                   float:right;
+              }
+       }
+  */
+  }
+  .nav-side-menu ul :not(collapsed) .arrow:before,
+  .nav-side-menu li :not(collapsed) .arrow:before {
+    font-family: FontAwesome;
+    content: "\f078";
+    /* display: inline-block; */
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    float: right;
+  }
+  .nav-side-menu ul .active,
+  .nav-side-menu li .active {
+    border-left: 3px solid rgb(34, 161, 161);
+    background-color: #4f5b69;
+  }
+  .nav-side-menu ul .sub-menu li.active,
+  .nav-side-menu li .sub-menu li.active {
+    color: rgb(34, 161, 161);
+  }
+  .nav-side-menu ul .sub-menu li.active a,
+  .nav-side-menu li .sub-menu li.active a {
+    color: rgb(34, 161, 161);
+  }
+  .nav-side-menu ul .sub-menu li,
+  .nav-side-menu li .sub-menu li {
+    background-color: #181c20;
+    border: none;
+    line-height: 28px;
+    border-bottom: 1px solid #23282e;
+    margin-left: 0px;
+  }
+  .nav-side-menu ul .sub-menu li:hover,
+  .nav-side-menu li .sub-menu li:hover {
+    background-color: #020203;
+  }
+  .nav-side-menu ul .sub-menu li:before,
+  .nav-side-menu li .sub-menu li:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+  }
+  .nav-side-menu li {
+    padding-left: 0px;
+    border-left: 3px solid #2e353d;
+    border-bottom: 1px solid #23282e;
+  }
+  .nav-side-menu li a {
+    text-decoration: none;
+    color: #e1ffff;
+  }
+  .nav-side-menu li a i {
+    padding-left: 10px;
+    width: 20px;
+    padding-right: 20px;
+  }
+  .nav-side-menu li:hover {
+    border-left: 3px solid rgb(34, 161, 161);
+    background-color: #4f5b69;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  @media (max-width: 767px) {
+    .nav-side-menu {
+      position: relative;
+      width: 100%;
+      
+      margin-bottom: 10px;
+    }
+    .nav-side-menu .toggle-btn {
+      display: block;
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 10 !important;
+      padding: 3px;
+      background-color: #ffffff;
+      color: #000;
+      width: 100px;
+      
+      text-align: center;
+    }
+    .brand {
+      text-align: left!important;
+      font-size: 22px;
+      padding-left: 20px;
+      line-height: 50px !important;
+    }
+  }
+  @media (min-width: 767px) {
+    .nav-side-menu .menu-list .menu-content {
+      display: block;
+    }
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* dashboard css */
+
+  .openApp{
+    padding: 10px;
+  }
+  .openApp button{
+    color: white;
+    background-color: teal;
+    margin: 5px;
+  }
+
+    /* open-close application css */
+  .openAppForm{
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+  }
+
+  .openAppPage h1{
+    color: #06053a;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .openAppForm label{
+    color: #06053a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+      /* opened application table page css */
+
+  .openedfFormsTable{
+    padding: 5px;
+    width: 100%;
+  }
+
+  .openedfFormsTable table{
+    width: 100%;
+    padding: 5px;
+  }
+
+  .openedfFormsTable h1{
+    color: #06053a;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .openedfFormsTable thead{
+    color: #06053a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .openedfFormsTable a:hover{
+    text-decoration: none;
+  }
+
+  /* notice css */
+  .notice-bar h1{
+    color: #06053a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+  .Candidate-moreDetails{
+    width: 100%;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+/* footer new css */
+  .footerbackground{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 20px;
+    height: fit-content;
+  }
+
+.container-fluid{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* lecture page- admin */
+.namelistLec{
+  margin: 5% 10%;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  background-color: #dddfe2;
+  border-bottom: 1px solid #4f5b69;
+  color: #020C31;
+  font-weight: bold;
+}

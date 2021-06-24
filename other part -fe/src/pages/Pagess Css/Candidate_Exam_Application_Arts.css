@@ -1,0 +1,261 @@
+.CandidateApplication
+{
+  width: 1000px ;
+  max-width: 100% ;
+  height: 3000px;
+  margin-left: auto ;
+  margin-right: auto ;
+  align-items: center;
+  box-shadow:5px 7px 10px rgba(0,0,0);
+  
+}
+.CandidateApplication_download
+{
+  width: 100% ;
+  max-width: 100% ;
+  height: 2500px;
+  margin-left: auto ;
+  margin-right: auto ;
+  align-items: center;
+  box-shadow:5px 7px 10px rgba(0,0,0);
+  
+}
+.closeingDate p
+{
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    color:#FFF;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.CandidateApplicationHead
+{
+  
+  margin-top: 30px;
+  margin-left: 150px;
+  width: 700px;
+  height: 120px;
+  border: 3px solid black;
+  border-radius:25px;
+
+}
+.CandidateApplicationHead img
+{
+    width:100px;
+    height:100px;
+    float: left;
+    margin-left:20px;
+    margin-top: 5px;
+    
+
+}
+.CandidateApplicationHeadP p
+{
+    color:rgb(69, 243, 17);
+    margin-top: 20px;
+}
+
+.Head1
+{
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.inputbox1
+{
+    
+    border: 1px solid black;
+    width:990px;
+    margin-left: 5px;
+    margin-top:20px;
+    padding: 30px;
+    font-size: 12px;
+}
+
+ .textInput
+{
+    
+        border: 1px solid #ccc;
+        background: linear-gradient(to left, #ccc 1px, transparent 0);
+        background-size: 15px 80px;
+        width:945px; 
+        font: 15px monaco, monospace; 
+        letter-spacing: 9px;
+        text-indent: 5px;
+        text-transform: uppercase;
+      
+}
+.NIC
+{
+        border: 1px solid #ccc;
+        background: linear-gradient(to left, #ccc 1px, transparent 0);
+        background-size: 15px 80px;
+        width: 195px;
+        font: 15px monaco, monospace; 
+        letter-spacing: 9px;
+        text-indent: 5px;
+        text-transform: uppercase;
+}
+
+.inputbox1 input[type=tel]
+{
+    border: 1px solid #ccc;
+    background: linear-gradient(to left, #ccc 1px, transparent 0);
+    background-size: 15px 80px;
+    width: 210px; 
+    font: 15px monaco, monospace; 
+    letter-spacing: 6px;
+    text-indent: 5px;
+} 
+.inputbox2
+{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    width:990px;
+    margin-left: 5px;
+    height: 600px;
+}
+thead,td,tr{
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+}
+table, td, tr {
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .grade 
+  {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    border: 1px solid #FFF;
+  }
+
+  .subject
+  {
+      width: 400px;
+      height: 50px;
+      border: 1px solid #FFF;
+  }
+
+  .col-6
+  {
+    
+    border: 1px solid black;
+    margin-left: 30px;
+    font-size: 12px;
+    height: 500px;
+    
+
+  }
+.col-5
+{   
+    border: 1px solid black;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 30px;
+    
+}
+.col-5 label
+{
+    line-height: 15px;
+}
+.col-5 input{
+    width: 400px;
+}
+
+.col-5 p , .col-6 p
+{
+    font-size: 15px;
+}
+
+.year
+{
+    border: 1px solid #ccc;
+    background: linear-gradient(to left, #ccc 1px, transparent 0);
+    background-size: 15px 80px;
+    width: 90px;
+    font: 15px monaco, monospace; 
+    letter-spacing: 9px;
+    text-indent: 5px;
+    text-transform: uppercase;
+}
+
+.inputbox3
+{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    width:990px;
+    height: 200px;
+    margin-top: 50px;
+    font-size: 12px;
+
+}
+.inputbox3 input
+{
+    width: 800px;
+}
+
+.imageUpload
+{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    width:990px;
+    height: 400px;
+    margin-top: 28px;
+    font-size: 12px;
+    border-radius: 25px;
+    font-size: 24px;
+    
+}
+
+
+.note
+{
+    border: 1px solid black;
+    width:990px;
+    height: auto;
+    margin-left: 5px;
+    margin-top:1000px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.button_ button
+{
+    margin-top:50px;
+    margin-left: 150px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.button_Print
+{
+    background-color:rgb(21, 21, 82);
+    color: #FFF;
+}
+
+.button_Download
+{
+    background-color:rgb(138, 0, 0);
+    color: #FFF;
+}
+
+.button_Submit
+{
+    background-color:rgb(11, 61, 14);
+    color: #FFF;
+}

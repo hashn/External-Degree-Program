@@ -1,0 +1,52 @@
+
+.bg_color{
+    background-color: rgb(116, 117, 117);
+    color: #ffff;
+}
+
+h1{
+    text-transform: uppercase; 
+    
+}
+h5{
+    text-transform: uppercase; 
+    font-size: 15px;
+    margin-top: 10px;
+}
+.select_item{
+    margin-left: 350px;
+    color:red;
+    font-family: initial;
+    font-size: 20px;
+}
+.button_style
+{
+    background-color: rgb(16, 84, 88);
+    color:#ffff;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* height: 25px; */
+    font-size: 12px;
+    text-align:start
+}
+.button_Submit{
+    background-color: rgb(3, 27, 14);
+    color:#ffff;
+    width:200px;
+    margin-left: 450px;
+}
+.button_Cancel
+{
+    background-color: rgb(6, 2, 19);
+    color:#ffff;
+    margin-bottom: 10px;
+    width:200px;
+    margin-left: 466px;
+}
+.col1
+{
+    
+    border-color: black;
+    border-radius: 5px;
+    border-width: 3px;
+}

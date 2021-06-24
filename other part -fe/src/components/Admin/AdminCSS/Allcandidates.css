@@ -1,0 +1,21 @@
+thead,tr,th{
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+}
+table, td, tr {
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+  }
+.thead1
+{
+    color:red;
+}
+
+.CustomizedDialog
+{
+    width:3000px;
+    height:3000px;
+    color:blue;
+}

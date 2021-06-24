@@ -1,0 +1,53 @@
+
+    
+
+.cancel
+{
+    width: 100px;
+    height: 30px;
+    color:#FFF;
+    font-size: larger;
+    background: rgb(5, 5, 70);
+    border-radius: 15px;
+}
+.OpenCloseApplication
+{
+    
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 1000px;
+    top: 70px;
+    color:#FFF;
+    font-size: larger;
+    border-radius: 15px;
+
+    
+}
+.hr
+{
+    border-color: black;
+}
+ .open
+{
+    width: 100px;
+    height: 30px;
+    color:#FFF;
+    font-size: larger;
+    background: rgb(1, 51, 32);
+    border-radius: 15px;
+}
+._close
+{
+    width: 100px;
+    height: 30px;
+    color:#FFF;
+    font-size: larger;
+    background: rgb(51, 1, 1);
+    border-radius: 15px;
+}
+.Head
+{
+    font-size: 50px;
+    font-family:fantasy;
+}
