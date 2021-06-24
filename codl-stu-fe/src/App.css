@@ -1,0 +1,395 @@
+.App {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: top;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.student {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.student:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.student .firstname {
+  flex: 20%;
+  border-bottom: 1px solid lightgray;
+  background-color: dodgerblue;
+  display: grid;
+  place-content: center;
+  color: white;
+}
+
+.student .body {
+  flex: 60%;
+  display: grid;
+  place-content: center;
+}
+
+.student .email {
+  flex: 20%;
+  border-bottom: 1px solid lightgray;
+  background-color: rgb(255, 30, 244);
+  display: grid;
+  place-content: center;
+  color: white;
+}
+
+.student .lastname {
+  flex: 20%;
+  border-top: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  background-color: dodgerblue;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/*--Student reg form---*/
+
+/* .brand-logo 
+{
+    position: relative;
+    top: 0;
+    left: 0;
+} */
+.studentDetails {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: centr;
+  align-items: center;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 10px;
+}
+
+.formContainer #inputStudentDetails {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.topic {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  place-content: center;
+}
+
+.formContainer button {
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  color: white;
+}
+
+.formContainer button:hover {
+  cursor: pointer;
+  background-color: dodgerblue;
+}
+
+span {
+  color: red;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: dodgerblue;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/*-login-*/
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.loginContainer input,
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+}
+
+.loginContainer button {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.loginContainer input {
+  border: 2px solid dodgerblue;
+}
+
+.navbar {
+  background-color: #020c31 !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.active,
+.navbar ul li:hover {
+  background: #343a4e !important ;
+  border-radius: 3px !important;
+}
+.change-font-color {
+  text-align: center !important;
+}
+.card {
+  background-color: rgba(82, 184, 190, 0.14) !important;
+  height: 405px !important;
+}
+.headCard {
+  font-size: large !important;
+}
+.AboutUs {
+  background-color: rgba(159, 158, 204, 0.19) !important;
+  height: auto !important;
+}
+
+.footerbackground {
+  background-color: #020c31 !important;
+}
+.h3-color {
+  color: #fff !important;
+}
+.hr-light {
+  border-color: #fff;
+}
+.colmn-3 {
+  text-align: center;
+}
+.p-text {
+  color: #fff;
+  text-align: left;
+}
+.colm-4 {
+  line-height: 400%;
+}
+
+.cantact-card {
+  background-color: #fff !important;
+}
+.map-contact {
+  width: 850px;
+  height: 405px;
+}
+
+ /* ----- login page css ----- */
+
+ .login,
+ .userReg{
+   margin: 0;
+   padding: 0;
+   position: relative;
+   overflow: hidden;
+   -webkit-background-size: cover;
+   background-size: cover;
+   font-family: 'Times New Roman', Times, serif;
+   width: 100%;
+   height: 600px;
+ }
+
+ .loginForm,
+ .userRegForm{
+   width:400px;
+   height:fit-content;
+   color: #000;
+   top: 50%;
+   left: 50%;
+   padding: 60px 30px;
+   margin-bottom: 5%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+   box-shadow: 8px 8px 50px #000;    
+ }
+
+ .reg-bottom-text a, p{
+   font-size: 14px;
+   color: #343a4e;
+   text-decoration: none;
+ }
+
+ .loginForm h1,  
+ .userRegForm h1{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   font-size: 33px;
+   color: rgb(44, 44, 46);
+   text-align: center;
+   margin-bottom: 8%;
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+ .loginForm input, 
+ .userRegForm input{
+   width: 100%;
+   margin-bottom: 20px;
+ }
+
+ .loginForm input[type=text], 
+ .userRegForm input[type=text],
+ .loginForm input[type=password], 
+ .userRegForm input[type=password]{
+   border: none;
+   border-bottom: 1px solid rgb(184, 177, 177);
+   background:transparent;
+   outline: none;
+   height: 30px;
+   font-size: 20px;
+   opacity: 1;
+   color: rgb(79, 78, 87);
+ }
+
+ .loginForm input[type=submit], 
+ .userRegForm input[type=submit]{
+   border: none;
+   outline: none;
+   height: 40px;
+   background: #656575;
+   color: #fff;
+   font-size: 20px;
+   opacity: 0.8;
+   border-radius: 3px;
+ }
+
+ .loginForm input[type=submit]:hover, 
+ .userRegForm input[type=submit]:hover{
+   cursor: pointer;
+   background: #a9a9b6;
+   color: black;
+   font-weight: bold;
+ }
+
+ .loginForm a, .userRegForm a{
+   font-size: 16px;
+   text-decoration: none;
+   color: rgb(164, 145, 192);
+ }
+
+ .loginForm a:hover, .userRegForm a:hover{
+   color: rgb(53, 53, 54);
+   font-weight: bold;
+ }
+
+ .userRegForm a{
+   padding-left: 12px;
+   color: #1e1e30;
+ }
+
+ .userRegForm p{
+   color: #656575;
+ }
+
+ .bottom-text{
+   color: rgb(118, 114, 129);
+ }
+
+ .bottom-text input{
+   width: 10%;
+   float: left;
+ }
+
+ .bottom-text a{
+   float: right;
+ }
+
+ .loginForm .regBtn{
+   width: fit-content;
+   padding: 3%;
+   height: fit-content;
+   background-color: rgb(153, 153, 161);
+   margin-top: 15px;
+   font-weight: bold;
+   border-radius: 3px;
+ }
+
+ .loginForm .regBtn a{
+   color: rgb(240, 239, 245);
+ }
+
+ .loginForm .regBtn:hover{
+   background-color: rgb(184, 184, 189);
+ }
+
+ .loginForm .regBtn a:hover{
+   color: rgb(0, 0, 0);
+ }
+
+ .login img,
+ .userReg img{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -3;
+   opacity: 0.2;
+ }
+
+ .close{
+   margin: 20px;
+ }
+ .close a{
+   float: right;
+   text-decoration: none;
+   color: black;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: smaller;
+ }
